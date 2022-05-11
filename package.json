@@ -1,5 +1,5 @@
 {
-  "name": "@jakecyr/react-stripe-js",
+  "name": "react-18-stripe-js",
   "version": "1.7.2",
   "description": "React components for Stripe.js and Stripe Elements (FORKED)",
   "main": "dist/react-stripe.js",
