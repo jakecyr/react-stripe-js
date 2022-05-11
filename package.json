@@ -1,7 +1,7 @@
 {
-  "name": "@stripe/react-stripe-js",
+  "name": "@jakecyr/react-stripe-js",
   "version": "1.7.2",
-  "description": "React components for Stripe.js and Stripe Elements",
+  "description": "React components for Stripe.js and Stripe Elements (FORKED)",
   "main": "dist/react-stripe.js",
   "module": "dist/react-stripe.esm.js",
   "jsnext:main": "dist/react-stripe.esm.js",
@@ -12,8 +12,7 @@
     "typecheck": "tsc",
     "build": "yarn run clean && yarn run rollup -c && yarn checkimport",
     "checkimport": "scripts/check-imports",
-    "clean": "rimraf dist",
-    "prepublishOnly": "echo \"\nPlease use ./scripts/publish instead\n\" && exit 1"
+    "clean": "rimraf dist"
   },
   "keywords": [
     "React",
@@ -30,22 +29,6 @@
     "dist",
     "src"
   ],
-  "jest": {
-    "preset": "ts-jest/presets/js-with-ts",
-    "setupFilesAfterEnv": [
-      "<rootDir>/test/setupJest.js"
-    ],
-    "globals": {
-      "ts-jest": {
-        "diagnostics": {
-          "ignoreCodes": [
-            151001
-          ]
-        }
-      },
-      "_VERSION": true
-    }
-  },
   "dependencies": {
     "prop-types": "^15.7.2"
   },

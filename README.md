@@ -1,5 +1,7 @@
 # React Stripe.js
 
+FORKED FROM: [https://github.com/stripe/react-stripe-js](https://github.com/stripe/react-stripe-js)
+
 React components for
 [Stripe.js and Elements](https://stripe.com/docs/stripe-js).
 
